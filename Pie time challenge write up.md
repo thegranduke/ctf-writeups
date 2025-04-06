@@ -69,7 +69,8 @@ int main() {
 
 ```
 
-![image.png](attachment:d0c5b5c4-8ef9-43e1-802b-f8c491b6c673:image.png)
+![image (10)](https://github.com/user-attachments/assets/dceeab8f-bacf-4a15-b44b-028d32438c08)
+
 
 ## Understanding the Challenge
 
