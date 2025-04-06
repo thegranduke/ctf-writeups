@@ -19,7 +19,8 @@ Upon accessing the Cookie Monster website, I was presented with a standard login
 
 First, I tried entering random credentials to see how the website would handle this and I got the following response.
 
-![image.png](attachment:a4dfbfbb-f6de-4fde-992b-763894436a09:image.png)
+![image (1)](https://github.com/user-attachments/assets/f5767433-862d-46b9-b4bf-444928296182)
+
 
 ### Step 2: Opening Developer Tools
 
@@ -35,13 +36,15 @@ I navigated to:
 2. Storage section in the left sidebar
 3. Cookies or Session Storage subsection
 
-![image.png](attachment:d859be2e-bf4d-4f93-9fa5-3e9e9e8b32a5:image.png)
+![image (2)](https://github.com/user-attachments/assets/71dceaa8-7221-40e2-aff6-6e668a34956f)
+
 
 ### Step 4: Finding the Hidden Data
 
 After submitting random login credentials, I noticed a new entry appeared in the session storage - an alphanumeric string that looked suspiciously encoded in the value tab.
 
-![image.png](attachment:d3201445-c9e0-4796-a2db-5ba39c8030ab:image.png)
+![image (3)](https://github.com/user-attachments/assets/03ee27b0-5f24-4b36-a01c-bbee009d7a23)
+
 
 ### Step 5: Decoding the Secret
 
@@ -53,7 +56,8 @@ I decided to decode this string:
 2. Used an online Base64 decoder tool  at https://v2.cryptii.com/base64/text
 3. Decoded the string to reveal the plaintext
 
-![image.png](attachment:00ee0902-2656-4d4b-aca0-6f2b646669e4:image.png)
+![image (4)](https://github.com/user-attachments/assets/67d79d8b-2efa-4ab1-802c-546ac8b1e9d4)
+
 
 ## Solution
 
