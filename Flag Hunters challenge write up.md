@@ -1,4 +1,4 @@
-**Challenge Name:** Cookie Monster's Secret Recipe
+**Challenge Name:** Flag Hunter
 
 **Description:**  Lyrics jump from verses to the refrain kind of like a subroutine call. There's a hidden refrain this program doesn't print by default. Can you get it to print it? There might be something in it for you.The program's source code can be downloaded [here](https://challenge-files.picoctf.net/c_verbal_sleep/94196e43010d5524e59502a24ec791d7ae7fc7799fd2d31c87ff04baa746b153/lyric-reader.py) .Connect to the program with netcat:
 
@@ -92,7 +92,8 @@ When prompted for "Crowd:" input, I entered:
 
 ```
 
-![image.png](attachment:f875ec03-2c35-4eff-8115-1ceb458bf077:image.png)
+![image (5)](https://github.com/user-attachments/assets/19a8fb17-b53c-4a01-9825-d92fda402eb6)
+
 
 ### Why this works:
 
