@@ -10,7 +10,8 @@ In this challenge, we were presented with a solid red image and some cryptic clu
 
 ## Initial Analysis
 
-![image.png](attachment:e0e66305-552f-4211-afe4-3d6fc97ad7b3:image.png)
+![image (6)](https://github.com/user-attachments/assets/0663be27-a588-4d57-a858-9510386c4e1c)
+
 
 At first glance, the image appears to be simply a solid red square with no visible patterns or text. However, it is possible that some data is hidden in it somehow.
 
@@ -36,10 +37,10 @@ Kisses linger with your warmth.
 Love deep as merlot.
 Scarlet leaves falling softly,
 Bold in every stroke.
-
 ```
 
-![image.png](attachment:b4676ae8-d727-4b9b-a9dd-ce985311ccdb:image.png)
+![image (7)](https://github.com/user-attachments/assets/d5f32ad0-d86b-4549-ba1b-3402dca27a8d)
+
 
 ## Finding the First Clue
 
@@ -70,12 +71,12 @@ I used a steganography tool at https://georgeom.net/StegOnline/extract to extrac
 
 This revealed a file containing repetitive Base64-encoded data:
 
-![image.png](attachment:8987408c-653c-4a69-98be-6c7b4ddf5111:image.png)
+![image (8)](https://github.com/user-attachments/assets/49ae0b74-b1cc-46d1-9b90-c24834b34a54)
 
-from the above image we can see that the following ASCII pattern is being repeated 
+
+from the above image we can see that the following ASCII pattern is being repeated and it looks like Base64 
 
 ```
-
 cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ
 ```
 
@@ -83,14 +84,13 @@ cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ
 
 The final step was to decode this Base64 string i did this at https://v2.cryptii.com/base64/text:
 
-![image.png](attachment:d1edaa4f-5a66-4a55-a68d-b72a20f30e56:image.png)
+![image (9)](https://github.com/user-attachments/assets/10abfc96-bbf0-409f-b1df-f60d1f37b4d3)
+
 
 When decoded, the Base64 string revealed the flag:
 
 ```
-
 picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}
-
 ```
 
 ## Conclusion
