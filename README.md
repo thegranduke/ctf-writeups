@@ -1,1 +1,1 @@
-# Some CTF write ups from the picoctf-2025 ompetition 
+# Some CTF write ups from the picoctf-2025 competition 
