@@ -8,7 +8,8 @@ Category: Web exploitation
 
 ## Initial Reconnaissance
 
-![image.png](attachment:d2f9d58d-44f2-4072-9a4c-9675157978ac:image.png)
+![image](https://github.com/user-attachments/assets/b046438b-1d98-4ca3-8513-4d0cd0ba9fab)
+
 
 Upon accessing the Cookie Monster website, I was presented with a standard login page requiring a username and password. Instead of attempting to brute force or find credentials, I decided to explore what was happening behind the scenes.
 
